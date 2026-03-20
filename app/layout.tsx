@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'CTSE Lab 06 – Order Management',
+  title: 'CTSE Lab 07 – Order Management',
   description: 'Event-driven microservices frontend',
 }
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main className="max-w-4xl mx-auto px-6 py-10">{children}</main>
         <footer className="text-center text-xs text-gray-400 py-6">
-          CTSE Lab 06 · API Gateway → Kafka → Microservices
+          CTSE Lab 07 · API Gateway → Kafka → Microservices
         </footer>
       </body>
     </html>

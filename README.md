@@ -1,4 +1,4 @@
-# CTSE Lab 06 — Order Management Frontend
+# 7 — Order Management Frontend
 
 A Next.js frontend for submitting orders to the microservices backend via an API Gateway. Orders are published to Kafka and consumed by the Order, Inventory, and Billing services.
 
